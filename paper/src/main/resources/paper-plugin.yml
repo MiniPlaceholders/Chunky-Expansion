@@ -8,6 +8,5 @@ dependencies:
   server:
     MiniPlaceholders:
       required: true
-  # Add some plugin dependency
-  # spark:
-  #   required: true
+    Chunky:
+      required: true

@@ -1,7 +1,7 @@
 dependencies {
     compileOnly(libs.paper.api)
     compileOnly(libs.miniplaceholders)
-    implementation(projects.exampleExpansionCommon)
+    implementation(projects.chunkyExpansionCommon)
 }
 
 tasks {

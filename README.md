@@ -1,2 +1,2 @@
-# Example-Expansion
-Example Expansion for MiniPlaceholders
+# Chunky-Expansion
+Chunky Expansion for MiniPlaceholders

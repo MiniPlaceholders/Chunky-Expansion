@@ -9,7 +9,7 @@ public final class PaperPlugin extends JavaPlugin {
 
     @Override
     public void onEnable(){
-        this.getSLF4JLogger().info("Starting Example Expansion for Paper");
+        this.getSLF4JLogger().info("Starting Chunky Expansion for Paper");
 
         CommonExpansion.builder()
                 .filter(Player.class)

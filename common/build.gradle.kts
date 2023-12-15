@@ -1,6 +1,10 @@
+plugins {
+    `java-library`
+}
+
 dependencies {
     compileOnly(libs.miniplaceholders)
-    //compileOnly(libs.spark) Some library
+    compileOnlyApi(libs.chunky)
     compileOnly(libs.adventure.api)
     compileOnly(libs.adventure.minimessage)
 }

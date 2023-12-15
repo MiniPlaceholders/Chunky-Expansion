@@ -7,7 +7,7 @@ val shade: Configuration by configurations.creating
 
 dependencies {
     compileOnly(libs.miniplaceholders)
-    shadeModule(projects.exampleExpansionCommon)
+    shadeModule(projects.chunkyExpansionCommon)
     minecraft(libs.minecraft)
     mappings(loom.officialMojangMappings())
     modImplementation(libs.fabric.loader)

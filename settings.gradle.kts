@@ -1,7 +1,7 @@
 @file:Suppress("UnstableApiUsage")
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
-rootProject.name = "MiniPlaceholders-Example-Expansion"
+rootProject.name = "MiniPlaceholders-Chunky-Expansion"
 
 pluginManagement {
     repositories {
@@ -14,6 +14,7 @@ dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         maven("https://papermc.io/repo/repository/maven-public/")
+        maven("https://repo.codemc.io/repository/maven-public/")
     }
 }
 
@@ -23,9 +24,9 @@ plugins {
     id("org.spongepowered.gradle.plugin") version "2.2.0"
 }
 
-arrayOf("common", "paper", "velocity", "sponge", "fabric").forEach {
-    include("example-expansion-$it")
+arrayOf("common", "paper", "sponge", "fabric").forEach {
+    include("chunky-expansion-$it")
 
-    project(":example-expansion-$it").projectDir = file(it)
+    project(":chunky-expansion-$it").projectDir = file(it)
 }
 

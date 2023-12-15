@@ -16,7 +16,7 @@ public class SpongePlugin {
 
     @Listener
     public void onServerStart(final StartingEngineEvent<Server> event) {
-        this.logger.info("Starting Example Expansion for Sponge");
+        this.logger.info("Starting Chunky Expansion for Sponge");
 
         CommonExpansion.builder()
                 .filter(ServerPlayer.class)
