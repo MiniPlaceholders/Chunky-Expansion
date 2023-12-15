@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "miniplaceholders-example-expansion",
+  "version": "${version}",
+  "name": "MiniPlaceholders Example Expansion",
+  "description": "MiniPlaceholders Example Expansion for Fabric",
+  "authors": [
+    "4drian3d"
+  ],
+  "contact": {
+    "homepage": "https://github.com/MiniPlaceholders/Example-Expansion",
+    "sources": "https://github.com/MiniPlaceholders/Example-Expansion"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "server": [
+      "io.github.miniplaceholders.expansion.expressions.fabric.FabricMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.23",
+    "minecraft": ">=1.20.2",
+    "java": ">=17",
+    "fabric-api": "*",
+    "miniplaceholders": "*"
+  }
+}
