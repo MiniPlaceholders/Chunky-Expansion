@@ -31,7 +31,7 @@ adventure-api = { group = "net.kyori", name = "adventure-api", version.ref = "ad
 adventure-minimessage = { group = "net.kyori", name = "adventure-text-minimessage", version.ref = "adventure" }
 adventure-platform-fabric = { group = "net.kyori", name = "adventure-platform-fabric", version.ref = "adventurefabric" }
 
-chunky = "org.popcraft:chunky-common:1.3.35"
+chunky = "org.popcraft:chunky-common:1.3.102"
 
 [plugins]
 
