@@ -8,5 +8,7 @@ dependencies:
   server:
     MiniPlaceholders:
       required: true
+      load: BEFORE
     Chunky:
       required: true
+      load: BEFORE
