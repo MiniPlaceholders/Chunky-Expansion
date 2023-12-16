@@ -29,7 +29,7 @@ tasks {
     }
     remapJar {
         inputFile.set(shadowJar.get().archiveFile)
-        archiveFileName.set("MiniPlaceholders-Example-Expansion-Fabric-${project.version}.jar")
+        archiveFileName.set("MiniPlaceholders-Chunky-Expansion-Fabric-${project.version}.jar")
         destinationDirectory.set(file("${project.rootDir}/build"))
     }
     shadowJar {

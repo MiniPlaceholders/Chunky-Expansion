@@ -1,6 +1,6 @@
-package io.github.miniplaceholders.expansion.expressions.fabric;
+package io.github.miniplaceholders.expansion.chunky.fabric;
 
-import io.github.miniplaceholders.expansion.example.common.CommonExpansion;
+import io.github.miniplaceholders.expansion.chunky.common.CommonExpansion;
 import net.fabricmc.api.DedicatedServerModInitializer;
 import net.minecraft.server.level.ServerPlayer;
 

@@ -1,6 +1,6 @@
-package io.github.miniplaceholders.expansion.example.paper;
+package io.github.miniplaceholders.expansion.chunky.paper;
 
-import io.github.miniplaceholders.expansion.example.common.CommonExpansion;
+import io.github.miniplaceholders.expansion.chunky.common.CommonExpansion;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 

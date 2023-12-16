@@ -17,14 +17,14 @@ sponge {
         name(PluginLoaders.JAVA_PLAIN)
         version("1.0")
     }
-    plugin("miniplaceholders-example-expansion") {
-        displayName("MiniPlaceholders-Example-Expansion")
-        entrypoint("io.github.miniplaceholders.expansion.example.sponge.SpongePlugin")
+    plugin("miniplaceholders-chunky-expansion") {
+        displayName("MiniPlaceholders-Chunky-Expansion")
+        entrypoint("io.github.miniplaceholders.expansion.chunky.sponge.SpongePlugin")
         description(project.description)
         links {
-            homepage("https://github.com/MiniPlaceholders/Example-Expansion")
-            source("https://github.com/MiniPlaceholders/Example-Expansion")
-            issues("https://github.com/MiniPlaceholders/Example-Expansion/issues")
+            homepage("https://github.com/MiniPlaceholders/Chunky-Expansion")
+            source("https://github.com/MiniPlaceholders/Chunky-Expansion")
+            issues("https://github.com/MiniPlaceholders/Chunky-Expansion/issues")
         }
         contributor("4drian3d") {
             description("Lead Developer")
@@ -38,7 +38,7 @@ sponge {
             optional(false)
             version("2.2.0")
         }
-        dependency("some_plugin") {
+        dependency("chunky") {
             loadOrder(PluginDependency.LoadOrder.AFTER)
             optional(false)
             version("1.0.0")
