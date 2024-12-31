@@ -21,7 +21,7 @@ dependencyResolutionManagement {
 plugins {
     id("org.gradle.toolchains.foojay-resolver-convention") version "0.7.0"
     id("fabric-loom") version "1.4.5"
-    id("org.spongepowered.gradle.plugin") version "2.2.0"
+    id("org.spongepowered.gradle.plugin") version "2.3.0"
 }
 
 arrayOf("common", "paper", "sponge", "fabric").forEach {
