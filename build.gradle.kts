@@ -1,30 +1,18 @@
 plugins {
     java
-    alias(libs.plugins.shadow)
 }
 
 dependencies {
-    implementation(projects.chunkyExpansionPaper)
-    implementation(projects.chunkyExpansionSponge)
+    compileOnly(libs.miniplaceholders)
+    compileOnly(libs.chunky)
+    compileOnly(libs.adventure.api)
+    compileOnly(libs.adventure.minimessage)
 }
 
-subprojects {
-    apply<JavaPlugin>()
-    java.toolchain.languageVersion.set(JavaLanguageVersion.of(17))
-    tasks {
-        compileJava {
-            options.encoding = Charsets.UTF_8.name()
-            options.release.set(17)
-        }
-    }
-}
-
+java.toolchain.languageVersion.set(JavaLanguageVersion.of(21))
 tasks {
-    shadowJar {
-        archiveFileName.set("MiniPlaceholders-${rootProject.name}-${project.version}.jar")
-        duplicatesStrategy = DuplicatesStrategy.EXCLUDE
-    }
-    build {
-        dependsOn(shadowJar)
+    compileJava {
+        options.encoding = Charsets.UTF_8.name()
+        options.release.set(21)
     }
 }
